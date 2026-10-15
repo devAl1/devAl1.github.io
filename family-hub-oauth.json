@@ -1,0 +1,25 @@
+{
+  "issuer": "https://deval1.github.io/family-hub-oauth.json",
+  "authorization_endpoint": "https://yglvndjqgrmcxpgivlot.supabase.co/functions/v1/family-hub-mcp/authorize",
+  "token_endpoint": "https://yglvndjqgrmcxpgivlot.supabase.co/functions/v1/family-hub-mcp/token",
+  "registration_endpoint": "https://yglvndjqgrmcxpgivlot.supabase.co/functions/v1/family-hub-mcp/register",
+  "revocation_endpoint": "https://yglvndjqgrmcxpgivlot.supabase.co/functions/v1/family-hub-mcp/revoke",
+  "response_types_supported": [
+    "code"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "none"
+  ],
+  "code_challenge_methods_supported": [
+    "S256"
+  ],
+  "scopes_supported": [
+    "family.read",
+    "family.write"
+  ],
+  "service_documentation": "https://deval1.github.io/family-hub-connect/"
+}
