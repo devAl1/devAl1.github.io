@@ -1,0 +1,1 @@
+Public static OAuth handoff only. No application source, family data, API keys or credentials.
